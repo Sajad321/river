@@ -1,6 +1,4 @@
-// Start Generation Here
-import { defineConfig } from "vite";
-export default defineConfig({
+export default {
   // server: {
   //   host: "192.168.0.107",
   //   port: 5500,
@@ -8,4 +6,4 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 800,
   },
-});
+};
